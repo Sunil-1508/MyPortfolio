@@ -1,0 +1,10 @@
+.navbar{
+  background-color: rgb(9, 0, 103);
+}
+.btn-primary{
+  background-color: rgb(17, 67, 174);
+  border-color: rgb(0, 0, 0);
+}
+.navbar-collapse{
+  flex-grow: 0;
+}
