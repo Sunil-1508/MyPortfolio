@@ -1,5 +1,5 @@
 #About{
-    margin-top: 50px;
+    height: 85vh;
 }
 
 .row {
@@ -7,6 +7,7 @@
 }
 
 .text1{
+    margin-top: 25px;
     color: yellow;
     font-size: 6vw;
 }
@@ -32,6 +33,7 @@
 
 
 img{
+  margin-top: 25px;
   flex: 1;
   max-width: 100%;
   object-fit:fill;
@@ -47,7 +49,7 @@ img{
     }
     image{
       max-width: 100%;
-      height: 50%;
+      height: 10px !important;
       justify-content: center;
       align-items: center;
     }

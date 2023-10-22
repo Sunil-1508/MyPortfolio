@@ -1,0 +1,25 @@
+.card-row{
+    justify-content: space-around !important;
+    height: fit-content;
+    gap:15px;
+}
+
+.card{
+    background-color: rgb(68, 68, 69);
+    color: rgb(207, 207, 207);
+    margin-bottom: 10px;
+}
+
+.card-img-top{
+    margin-top: 10px;
+}
+
+.title{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+h1{
+    color: yellow;
+}
+
