@@ -2,6 +2,7 @@ import React from 'react'
 import './MyNavbar.css'
 export default function MyNavbar(props) {
   return (
+    <section id="Navbar">
     <nav className="navbar navbar-expand-lg" data-bs-theme="dark">
   <div className="container-fluid">
     <div className="navleft">
@@ -26,7 +27,7 @@ export default function MyNavbar(props) {
           <a className="nav-link" href="/">Certifications</a>
         </li>
         <li>
-          <a href="/myResume.pdf"> 
+          <a href={props.button}> 
           <button className="btn btn-primary" type="button">{props.btnName}</button>
           </a>
         </li>
@@ -34,5 +35,6 @@ export default function MyNavbar(props) {
     </div>
   </div>
 </nav>
+</section>
   )
 }

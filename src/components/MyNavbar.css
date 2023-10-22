@@ -5,23 +5,26 @@
   .btn-primary{
     background-color: rgb(73, 74, 75) ;
     border-color: rgb(255, 255, 255);
+    --bs-btn-active-color: #000000;
+    --bs-btn-active-bg: rgb(255, 247, 0);
+    --bs-btn-active-border-color: #000000;
   }
   .btn-primary:hover{
     background-color: white;
     border-color: black;
     color: black;
   }
+
   .navbar  .container-fluid img{
       height: 35px;
-      width: 45px;
-      
+      width: 63px;
       vertical-align: baseline;
   }
 
   .navbar-brand{
     font-size: 25px;
     font-family: cursive;
-    color: rgb(211, 211, 2) !important;
+    color: rgb(255, 255, 0) !important;
     position: relative;
     top:-8px;
   }
@@ -34,7 +37,6 @@
   .navbar-collapse{
     flex-grow: 0;
   }
-
   
 @media (min-width: 990px) and (max-width: 2880px){
 .nav-item a::after {
