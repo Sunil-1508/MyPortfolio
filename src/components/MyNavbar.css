@@ -1,0 +1,52 @@
+  .navbar{
+    background-color: rgb(50, 48, 48);
+  }
+  
+  .btn-primary{
+    background-color: rgb(73, 74, 75) ;
+    border-color: rgb(255, 255, 255);
+  }
+  .btn-primary:hover{
+    background-color: white;
+    border-color: black;
+    color: black;
+  }
+  .navbar  .container-fluid img{
+      height: 35px;
+      width: 45px;
+      
+      vertical-align: baseline;
+  }
+
+  .navbar-brand{
+    font-size: 25px;
+    font-family: cursive;
+    color: rgb(211, 211, 2) !important;
+    position: relative;
+    top:-8px;
+  }
+
+  .navleft{
+    justify-content: baseline;
+    align-items: center;
+  }
+
+  .navbar-collapse{
+    flex-grow: 0;
+  }
+
+  
+@media (min-width: 990px) and (max-width: 2880px){
+.nav-item a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  display: block;
+}
+.nav-item a:hover::after {
+  width: 100%;
+  transition: width 0.3s linear;
+}
+}

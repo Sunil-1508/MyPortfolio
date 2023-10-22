@@ -1,12 +1,10 @@
-
-import './App.css';
 import MyNavbar from './components/MyNavbar';
-
+import logoImg from './assets/logo.png';
 
 function App() {
   return (
 
-  <MyNavbar Title="Noolu Sunil" btnName="Resume" />
+  <MyNavbar logo={logoImg} Title=" Sunil Noolu" btnName="Resume" />
 
   )};
 
