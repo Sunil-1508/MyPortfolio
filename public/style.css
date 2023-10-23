@@ -9,3 +9,22 @@
 body{
     background-color: rgb(30,30,30);
 }
+
+
+@media  (max-width:575px){
+  p{
+    font-size:x-small;
+  }  
+}
+
+@media  (min-width:575px) and (max-width:1023px){
+    p{
+        font-size:medium;
+    }
+}
+@media  (min-width:1024px){
+    p{
+        font-size: large;
+    }
+        
+}

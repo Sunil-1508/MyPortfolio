@@ -1,5 +1,7 @@
 #About{
-    height: 85vh;
+    height: 100vh;
+    position: relative;
+    top: 10vh;
 }
 
 .row {
@@ -14,7 +16,6 @@
 
 .text3,.text2{
     color: white;
-    font-size: 2.5vw;
     align-items: center;
 }
 
@@ -32,25 +33,27 @@
 }
 
 
-img{
-  margin-top: 25px;
-  flex: 1;
-  max-width: 100%;
-  object-fit:fill;
-  justify-content: center;
-  align-items: center;
-}
-
 @media  (max-width:575px){
     .btn-primary{
         height: 27px;
         width: 60px;
         --bs-btn-font-size: 10px;
     }
-    image{
-      max-width: 100%;
-      height: 10px !important;
-      justify-content: center;
-      align-items: center;
+    .image{
+      height: 72vw;
+      margin-bottom: 20px;
     }
 }
+
+@media  (min-width:575px) and (max-width:1023px){
+    .image{
+        height: 35vw;
+        margin-bottom: 20px;
+      }
+    }
+@media  (min-width:1024px){
+        .image{
+            height: 34vw;
+            margin-bottom: 20px;
+          }
+        }

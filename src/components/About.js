@@ -7,7 +7,7 @@ export default function About(props) {
       <div className="container-fluid row ">
         <div className="col-md-8 col-sm-8">
             <div className="row">
-                <h1 className="text1">I'm {props.Name},</h1>
+                <h1 className="text1">Hi I'm {props.Name},</h1>
             </div>
             <div className="text2">
             I'm a <span id="typing">Frontend Web-Developer</span><Cursor />
@@ -27,7 +27,7 @@ export default function About(props) {
                 </div>
             </div>
         </div>
-        <div className="col-md-4 col-sm-4 image"><img src={props.image} alt="profile pic"/></div>
+        <div className="col-md-4 col-sm-4 "><img className="image" src={props.image} alt="profile pic"/></div>
       </div>  
       </section>
     

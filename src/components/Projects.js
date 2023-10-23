@@ -10,10 +10,12 @@ export default function Projects() {
   function openp3(){ window.open("https://sunil-1508.github.io/Snakes-Ladders/");}
   return (
     <section id="Projects" className="mx-4">
-        <div className="row  card-row mx-1 mt-5">
-            <h1 id="title">My Projects</h1>
+        <h1 id="title">My Projects</h1>
+        <p className="desc">Driven by my passion for programming and software development, I am highly motivated to create mobile applications and websites that solve various problems encountered in everyday life, or to automate routine tasks. This strong drive to innovate and find creative solutions to everyday challenges has led me to pursue opportunities to develop practical solutions that make a tangible difference. Whether it's an app that simplifies a daily task, or a website that provides convenient access to important information, my aim is to create software that is both useful and user-friendly.</p>
+        <div className=" container-fluid row  card-row mx-1 mt-5">
+            
 
-            <div className="card col-md-3" onClick={openp1}>
+            <div className="card col-md-5 col-lg-3" onClick={openp1}>
             <img src={snake} className="card-img-top" alt="Snake & Ladder" />
             <div className="card-body">
             <p className="title">Snake and Ladder</p>
@@ -21,7 +23,7 @@ export default function Projects() {
 and the winning criteria.</p>
             </div></div>
 
-            <div className="card col-md-3" onClick={openp2}>
+            <div className="card col-md-5 col-lg-3" onClick={openp2}>
             <img src={ansible} className="card-img-top" alt="Ansible" />
             <div className="card-body">
             <p className="title">Snake and Ladder</p>
@@ -29,7 +31,7 @@ and the winning criteria.</p>
 throughout your infrastructure with ease.</p>
             </div></div>
 
-            <div className="card col-md-3" onClick={openp3}>
+            <div className="card col-md-5 col-lg-3" onClick={openp3}>
             <img src={portfolio} className="card-img-top" alt="snake & Lader" />
             <div className="card-body">
             <p className="title">Portfolio</p>
