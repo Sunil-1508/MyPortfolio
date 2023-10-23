@@ -1,0 +1,14 @@
+.progress-bar{
+    background-color: rgb(197, 197, 197);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+}
+
+.progress{
+    background-color: rgb(66, 64, 64);
+}
+
+h4,li{
+    color: yellow;
+}

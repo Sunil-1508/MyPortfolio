@@ -11,7 +11,7 @@ export default function Projects() {
   return (
     <section id="Projects" className="mx-4">
         <h1 id="title">My Projects</h1>
-        <p className="desc">Driven by my passion for programming and software development, I am highly motivated to create mobile applications and websites that solve various problems encountered in everyday life, or to automate routine tasks. This strong drive to innovate and find creative solutions to everyday challenges has led me to pursue opportunities to develop practical solutions that make a tangible difference. Whether it's an app that simplifies a daily task, or a website that provides convenient access to important information, my aim is to create software that is both useful and user-friendly.</p>
+        <p>Driven by my passion for programming and software development, I am highly motivated to create mobile applications and websites that solve various problems encountered in everyday life, or to automate routine tasks. This strong drive to innovate and find creative solutions to everyday challenges has led me to pursue opportunities to develop practical solutions that make a tangible difference. Whether it's an app that simplifies a daily task, or a website that provides convenient access to important information, my aim is to create software that is both useful and user-friendly.</p>
         <div className=" container-fluid row  card-row mx-1 mt-5">
             
 

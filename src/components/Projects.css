@@ -1,13 +1,7 @@
-#Projects{
-    height: 100vh;
-}
 
 #title{
     position: relative;
     margin-bottom: 10px;
-}
-.desc{
-    color: white;
 }
 
 .card-row{
