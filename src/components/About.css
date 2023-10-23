@@ -1,7 +1,5 @@
 #About{
     height: 100vh;
-    position: relative;
-    top: 10vh;
 }
 
 .row {
@@ -17,6 +15,10 @@
 .text3,.text2{
     color: white;
     align-items: center;
+}
+
+.text2{
+    font-size: 3vw !important;
 }
 
 #typing{
@@ -40,8 +42,10 @@
         --bs-btn-font-size: 10px;
     }
     .image{
-      height: 72vw;
-      margin-bottom: 20px;
+        height: 75vw;
+        position: relative;
+        left: -42px;
+        top: 29px;
     }
 }
 

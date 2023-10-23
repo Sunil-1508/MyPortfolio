@@ -3,7 +3,7 @@ import './About.css'
 import { Cursor } from 'react-simple-typewriter'
 export default function About(props) {
   return (
-    <section id="About" className="mx-4">
+    <section id="About" className="mx-5 mt-5">
       <div className="container-fluid row ">
         <div className="col-md-8 col-sm-8">
             <div className="row">

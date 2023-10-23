@@ -15,19 +15,28 @@ p{
 }
 
 @media  (max-width:575px){
-  p{
+  p,li{
     font-size:x-small;
   }  
+  h4{
+    font-size: small;
+  }
 }
 
 @media  (min-width:575px) and (max-width:1023px){
-    p{
+    p,li{
         font-size:medium;
+    }
+    h4{
+        font-size: large;
     }
 }
 @media  (min-width:1024px){
-    p{
+    p,li{
         font-size: large;
+    }
+    h4{
+        font-size: larger;
     }
         
 }
