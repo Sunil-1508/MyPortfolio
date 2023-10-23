@@ -18,7 +18,7 @@ export default function MyNavbar(props) {
           <a className="nav-link" aria-current="page" href="/">About</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">Projects</a>
+          <a className="nav-link" href="#Projects">Projects</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/">Skills</a>
