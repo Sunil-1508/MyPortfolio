@@ -1,0 +1,7 @@
+.profile-img{
+    max-width: 8rem;
+    max-height: 70px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}

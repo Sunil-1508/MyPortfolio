@@ -18,7 +18,7 @@ export default function Projects() {
             <div className="card col-md-5 col-lg-3" onClick={openp1}>
             <img src={snake} className="card-img-top" alt="Snake & Ladder" />
             <div className="card-body">
-            <p className="title">Snake and Ladder</p>
+            <h4 className="title">Snake and Ladder Game</h4>
             <p className="card-text">Designed a fully responsive & attractive web application for classical Snake and Ladder game. Developed and established the fundamental game mechanics, including player movement, snakes and ladders placement, 
 and the winning criteria.</p>
             </div></div>
@@ -26,7 +26,7 @@ and the winning criteria.</p>
             <div className="card col-md-5 col-lg-3" onClick={openp2}>
             <img src={ansible} className="card-img-top" alt="Ansible" />
             <div className="card-body">
-            <p className="title">Snake and Ladder</p>
+            <h4 className="title">Automate Applications Using Ansible</h4>
             <p className="card-text">Ansible: an open-source automation tool. With Ansible, we can automate repetitive tasks and maintain consistency
 throughout your infrastructure with ease.</p>
             </div></div>
@@ -34,7 +34,7 @@ throughout your infrastructure with ease.</p>
             <div className="card col-md-5 col-lg-3" onClick={openp3}>
             <img src={portfolio} className="card-img-top" alt="snake & Lader" />
             <div className="card-body">
-            <p className="title">Portfolio</p>
+            <h4 className="title">My Portfolio </h4>
             <p className="card-text">Developed a dynamic and visually engaging portfolio using React, showcasing my passion for web development and design.</p>
             </div></div>      
         </div>
