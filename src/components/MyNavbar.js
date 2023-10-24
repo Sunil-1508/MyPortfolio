@@ -26,6 +26,9 @@ export default function MyNavbar(props) {
         <li className="nav-item">
           <a className="nav-link" href="#Certifications">Certifications</a>
         </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#Contact">Contact</a>
+        </li>
         <li>
           <a href={props.button}> 
           <button className="btn btn-primary" type="button">{props.btnName}</button>

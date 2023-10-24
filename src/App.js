@@ -2,6 +2,7 @@ import MyNavbar from './components/MyNavbar';
 import About from './components/About';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
+import Contact from './components/Contact';
 import Certifications from './components/Certifications';
 import logoImg from './assets/logo.png';
 import pic from './assets/pic.png';
@@ -16,6 +17,7 @@ function App() {
   <Projects />
   <Skills />
   <Certifications />
+  <Contact />
   </>
 
   )};

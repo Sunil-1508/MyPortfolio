@@ -1,0 +1,17 @@
+.footer{
+    column-gap: 17px;
+}
+.heading{
+    color: yellow;
+}
+.nav-link{
+    color: white;
+}
+.nav-item .nounderline::after{
+    background-color: transparent;
+    color: yellow;
+}
+.nav{
+    --bs-nav-link-color: yellow;
+    --bs-nav-link-hover-color: yellow;
+}

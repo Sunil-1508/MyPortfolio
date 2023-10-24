@@ -44,7 +44,7 @@
   content: "";
   width: 0;
   height: 2px;
-  background-color: rgb(255, 255, 255);
+  background-color: yellow;
   margin: auto;
   display: block;
 }

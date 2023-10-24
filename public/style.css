@@ -18,7 +18,7 @@ p{
   p,li{
     font-size:x-small;
   }  
-  h4{
+  h4,.form-label{
     font-size: small;
   }
 }
