@@ -5,8 +5,8 @@ import lc from '../assets/lc.png'
 import hr from '../assets/hr.png'
 export default function Coding() {
   return (
-    <section id="Coding" className="mt-5 mx-5">
-        <h1 id="title">My coding Profiles</h1>
+    <section id="Coding" className="pt-5 mx-5">
+        <h1 id="title" className='pt-4'>My coding Profiles</h1>
         <p>Every day, I dive into the world of code, practicing and honing my skills on various coding platforms. It's not just a hobby; it's my passion, and it's what drives me to continuously improve.</p>
         <div className=" container-fluid row  card-row mx-1 mt-5">
       <div className="col-md-4 col-lg-3 mt-4 text-center">
