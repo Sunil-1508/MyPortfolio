@@ -3,8 +3,8 @@ import './Skills.css'
 
 export default function Skills() {
   return (
-    <section id="Skills" className="mx-5 mt-5">
-        <h1 id="title">My Skills</h1>
+    <section id="Skills" className="mx-5 pt-5">
+        <h1 id="title" className='pt-4'>My Skills</h1>
         <p>I excel in frontend development, problem solving, data structures and algorithms, and AWS. These skills reflect my technical proficiency, creative problem-solving abilities, and expertise in cloud computing. I am well-equipped to deliver high-quality solutions in my field.</p>
         <div className="container-fluid">
         <div className="row">

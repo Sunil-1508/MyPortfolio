@@ -3,8 +3,8 @@ import './Contact.css'
 
 export default function Contact() {
   return (
-    <section id="Contact" className="mx-5 mt-5">
-        <h1 id="title">Contact me</h1>
+    <section id="Contact" className="mx-5 pt-5">
+        <h1 id="title" className='pt-4'>Contact me</h1>
         <div className="container-fluid">
             <div className="row">
               <div className="col-md-4 ">
