@@ -3,8 +3,8 @@ import './Education.css';
 
 export default function Education() {
   return (
-    <section id="Certifications" className="mx-5 pt-5">
-      <h1 id="title" className="pt-4">Education Timeline</h1>
+    <section id="Education" className="mx-5 pt-5">
+      <h1 id="title" className="pt-4">Education</h1>
       <div className="container-fluid row mt-1 text-center">
         <div className="col-md-5 left">
           <div className="ebox">

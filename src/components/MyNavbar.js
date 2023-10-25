@@ -47,9 +47,14 @@ export default function MyNavbar(props) {
                   Coding
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#Certifications" onClick={handleNavClick}>
                   Certifications
+                </a>
+              </li> */}
+              <li className="nav-item">
+                <a className="nav-link" href="#Education" onClick={handleNavClick}>
+                  Education
                 </a>
               </li>
               <li className="nav-item">
