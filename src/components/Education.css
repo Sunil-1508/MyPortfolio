@@ -1,0 +1,41 @@
+.bar{
+    height: 90%;
+    width: 6px;
+    background-color: rgb(206, 206, 2);
+    border-radius: 5px;
+    align-self: baseline;
+}
+
+.parent {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+.ebox b{
+    color: rgb(2, 178, 2);
+}
+@media  (max-width:767px){
+    .right{
+        margin-top: 0rem;
+    }
+    .ebox{
+        margin-bottom: 2rem;
+        line-height: 1rem;
+    }  
+  }
+  
+@media  (min-width:768px){
+    .left p{
+        margin-top: 2rem;
+        text-align: right;
+    }
+    .right{
+        margin-top: 8rem;
+    }
+    .ebox{
+        margin-bottom: 8rem;
+        line-height: 2rem;
+    }
+  }

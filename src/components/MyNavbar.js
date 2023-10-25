@@ -59,7 +59,7 @@ export default function MyNavbar(props) {
               </li>
               <li>
                 <a href={props.button}>
-                  <button className="btn btn-primary" type="button">
+                  <button className="btn btn-primary mx-2" type="button">
                     {props.btnName}
                   </button>
                 </a>

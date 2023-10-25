@@ -6,7 +6,7 @@ export default function Contact() {
     <section id="Contact" className="mx-5 pt-5">
         <h1 id="title" className='pt-4 pb-5'>Contact me</h1>
         <div className="container-fluid">
-            <div className="row pb-5 ">
+            <div className="row pb-5 px-4">
               <div className="col-md-4 col-sm-6">
                 <ul className="nav flex-column">
                  <li className="nav-item mb-2"> <a href="callto:+917013370983" className="nav-link nounderline p-0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="CurrentColor" className="bi bi-telephone-fill" viewBox="0 0 16 16">
@@ -50,7 +50,6 @@ export default function Contact() {
                     </li>
                 </ul>
               </div>
-              
               <div className="col-md-4 ">
                 <form>
                   <div className="d-flex-column  gap-2">

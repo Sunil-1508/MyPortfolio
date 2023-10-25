@@ -5,6 +5,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Coding from './components/Coding'
 import Certifications from './components/Certifications';
+import Education from './components/Education';
 import logoImg from './assets/logo.png';
 import pic from './assets/pic.png';
 import resume from './assets/myResume.pdf';
@@ -19,6 +20,7 @@ function App() {
   <Skills />
   <Coding />
   <Certifications />
+  <Education />
   <Contact />
 
   </>

@@ -5,7 +5,7 @@
     column-gap: 17px;
 }
 .heading{
-    color: yellow;
+    color: rgb(203, 203, 0);
 }
 .nav-link{
     color: white;
@@ -15,6 +15,6 @@
     color: yellow;
 }
 .nav{
-    --bs-nav-link-color: yellow;
-    --bs-nav-link-hover-color: yellow;
+    --bs-nav-link-color: rgb(183, 183, 0);
+    --bs-nav-link-hover-color: rgb(193, 193, 0);
 }
