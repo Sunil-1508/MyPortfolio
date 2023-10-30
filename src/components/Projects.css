@@ -14,11 +14,14 @@
     background-color: rgb(68, 68, 69);
     color: rgb(207, 207, 207);
     margin-bottom: 10px;
+    box-shadow: 2px 2px 20px black;
 }
 
 .card:hover{
+    color: black;
     cursor: pointer;
 }
+
 
 
 .card-img-top{
@@ -29,4 +32,5 @@
 
 .title,h1{
     color: rgb(199, 199, 0);
+    text-shadow: 2px 2px 20px black ;
 }

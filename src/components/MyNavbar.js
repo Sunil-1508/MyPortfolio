@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './MyNavbar.css';
+import {Link} from 'react-router-dom';
 
 export default function MyNavbar(props) {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
@@ -28,39 +29,25 @@ export default function MyNavbar(props) {
           <div className={`collapse navbar-collapse ${isNavCollapsed ? '' : 'show'}`} id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#About" onClick={handleNavClick}>
-                  About
-                </a>
+                <Link to="/About" className="nav-link" onClick={handleNavClick} >About</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#Projects" onClick={handleNavClick}>
-                  Projects
-                </a>
+                <Link to="/Projects" className="nav-link" onClick={handleNavClick} >Projects</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#Skills" onClick={handleNavClick}>
-                  Skills
-                </a>
+                <Link to="/Skills" className="nav-link"  onClick={handleNavClick}>Skills</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#Coding" onClick={handleNavClick}>
-                  Coding
-                </a>
-              </li>
-              {/* <li className="nav-item">
-                <a className="nav-link" href="#Certifications" onClick={handleNavClick}>
-                  Certifications
-                </a>
-              </li> */}
-              <li className="nav-item">
-                <a className="nav-link" href="#Education" onClick={handleNavClick}>
-                  Education
-                </a>
+                <Link className="nav-link" to="/Coding" onClick={handleNavClick}>Coding</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#Contact" onClick={handleNavClick}>
-                  Contact
-                </a>
+                <Link className="nav-link" to="/Certifications" onClick={handleNavClick}>Certifications</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/Education" onClick={handleNavClick}>Education</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/Contact" onClick={handleNavClick}>Contact</Link>
               </li>
               <li>
                 <a href={props.button}>

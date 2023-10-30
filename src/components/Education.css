@@ -4,6 +4,7 @@
     background-color: rgb(206, 206, 2);
     border-radius: 5px;
     align-self: baseline;
+    box-shadow: 2px 2px 20px black;
 }
 
 .parent {
@@ -12,6 +13,12 @@
     align-items: center;
 }
 
+.ebox{
+    box-shadow: 2px 2px 20px black;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
 
 .ebox b{
     color: rgb(2, 178, 2);
@@ -27,8 +34,8 @@
   }
   
 @media  (min-width:768px){
+
     .left p{
-        margin-top: 2rem;
         text-align: right;
     }
     .right{

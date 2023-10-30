@@ -13,7 +13,9 @@ p{
     color: white;
     text-align: justify;
 }
-
+h1{
+    text-shadow: 2px 2px 20px black;
+}
 @media  (max-width:575px){
   p,li{
     font-size:x-small;

@@ -4,8 +4,8 @@ import './Education.css';
 export default function Education() {
   return (
     <section id="Education" className="mx-5 pt-5">
-      <h1 id="title" className="pt-4">Education</h1>
-      <div className="container-fluid row mt-1 text-center">
+      <h1 id="title" className="pt-5">Education & Trainings</h1>
+      <div className="container-fluid row pt-5 text-center">
         <div className="col-md-5 left">
           <div className="ebox">
             <p>
@@ -24,7 +24,7 @@ export default function Education() {
             </p>
           </div>
         </div>
-        <div className="col-md-1 parent justify-content-center">
+        <div className="col-md-2 parent justify-content-center">
           <div className="bar"></div>
         </div>
         <div className="col-md-5 right">

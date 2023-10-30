@@ -11,6 +11,7 @@ li{
     background-color: rgb(66, 64, 64);
     height: 10px;
     font-size: 9px;
+    box-shadow: 2px 2px 20px rgb(29, 29, 29) !important;
 }
 
 h4{
@@ -22,4 +23,5 @@ h4{
     padding: 10px;
     border-radius: 15px;
     margin-top: 10px;
+    box-shadow: 2px 2px 20px black;
 }

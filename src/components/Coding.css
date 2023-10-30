@@ -7,5 +7,16 @@
 }
 
 .profile-img{
-    box-shadow: 2px 2px 10px rgb(148, 148, 148);
+    box-shadow: 2px 2px 20px black;
+}
+.cards{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.6s;
+}
+
+.cards:hover{
+    border-radius: 20px;
+    transition: 0.7s;
+    transform: scale(1.3);
 }

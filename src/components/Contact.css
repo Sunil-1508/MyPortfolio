@@ -12,9 +12,9 @@
 }
 .nav-item .nounderline::after{
     background-color: transparent;
-    color: yellow;
+    color: rgb(68, 255, 0);
 }
 .nav{
-    --bs-nav-link-color: rgb(183, 183, 0);
-    --bs-nav-link-hover-color: rgb(193, 193, 0);
+    --bs-nav-link-color: rgb(70, 183, 0);
+    --bs-nav-link-hover-color: rgb(93, 193, 0);
 }

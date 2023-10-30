@@ -33,7 +33,9 @@
     gap:30px;
     align-items: center;
 }
-
+.image{
+    filter: drop-shadow(0 0 10px rgb(89, 89, 89));
+}
 
 @media  (max-width:575px){
     .btn-primary{

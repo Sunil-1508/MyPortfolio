@@ -4,7 +4,7 @@ import './Contact.css'
 export default function Contact() {
   return (
     <section id="Contact" className="mx-5 pt-5">
-        <h1 id="title" className='pt-4 pb-5'>Contact me</h1>
+        <h1 id="title" className='pt-5 pb-5'>Contact me</h1>
         <div className="container-fluid">
             <div className="row pb-5 px-4">
               <div className="col-md-4 col-sm-6">
